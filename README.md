@@ -1,30 +1,33 @@
-# AZURE-Databricks — 30 Days of Azure Databricks
+![Alt text](./assets/imgreadme.png)
+# 🚀 AZURE-Databricks — 30 Days of Azure Databricks
 
-A collection of Jupyter notebooks documenting a 30-day learning journey through Azure Databricks. Each notebook contains concepts, examples, and hands-on exercises to help you learn Spark, Delta Lake, and Databricks integrations with Azure services.
+A hands-on **30-day learning journey** through **Azure Databricks**, covering **Apache Spark**, **Delta Lake**, and common integrations with **Azure services** — delivered as day-by-day Jupyter notebooks.
 
-Author: iamkumar-gaurav  
-Repository description: 30 Days learning of Azure DBT
-
----
-
-## Table of contents
-
-- [About](#about)
-- [Repo structure](#repo-structure)
-- [What you'll learn](#what-youll-learn)
-- [Prerequisites](#prerequisites)
-- [Running the notebooks locally](#running-the-notebooks-locally)
-- [Using these notebooks with Azure Databricks](#using-these-notebooks-with-azure-databricks)
-- [Contributing](#contributing)
-- [License & contact](#license--contact)
+**Author:** iamkumar-gaurav  
+**Repo Goal:** 30 Days learning of Azure DBT (Databricks)
 
 ---
 
-## About
+---
+
+## ⭐ Quick Navigation
+
+- 📌 [About](#about)
+- 🧱 [Repo structure](#repo-structure)
+- 📚 [What you'll learn](#what-youll-learn)
+- 🛠️ [Prerequisites](#prerequisites)
+- ▶️ [Running the notebooks locally](#running-the-notebooks-locally)
+- ☁️ [Using these notebooks with Azure Databricks](#using-these-notebooks-with-azure-databricks)
+- 🤝 [Contributing](#contributing)
+- ©️ [License & contact](#license--contact)
+
+---
+
+## 📌 About
 
 This repository contains Jupyter notebooks that follow a day-by-day progression for learning Azure Databricks fundamentals and common workflows. It's intended as a learning log and practical reference for hands-on tasks such as Spark basics, data ingestion, transformations, Delta Lake, and integration with other Azure services.
 
-## Repo structure
+## 🧱 Repo structure
 
 - `*.ipynb` — Jupyter Notebooks (one or more notebooks, typically organized by day/topic).
 - `assets/` or `data/` (optional) — Supporting files used by notebooks (CSV, images, sample data).
@@ -36,7 +39,7 @@ Typical notebook naming convention used in this repo:
 - `Day-15-Delta-Lake.ipynb`
 - etc.
 
-## What you'll learn
+## 📚 What you'll learn
 
 Examples of topics covered across the 30-day series:
 - Databricks and Spark basics (RDDs, DataFrames, Spark SQL)
@@ -49,7 +52,7 @@ Examples of topics covered across the 30-day series:
 - Basic ML workflows and model tracking (optional)
 - Integration with Azure services (Storage, Key Vault, Synapse, Event Hubs)
 
-## Prerequisites
+## 🛠️ Prerequisites
 
 - Python 3.8+ (for running notebooks locally)
 - JupyterLab or Jupyter Notebook
@@ -62,7 +65,7 @@ pip install jupyterlab notebook
 pip install databricks-cli  # optional, for pushing notebooks to Databricks
 ```
 
-## Running the notebooks locally
+## ▶️ Running the notebooks locally
 
 1. Clone the repository:
 ```bash
@@ -87,7 +90,7 @@ jupyter notebook
 
 4. Open any `Day-*.ipynb` notebook and run the cells. Adjust file paths and credentials as needed.
 
-## Using these notebooks with Azure Databricks
+## ☁️ Using these notebooks with Azure Databricks
 
 To run the notebooks inside an Azure Databricks workspace:
 
@@ -108,7 +111,7 @@ databricks workspace import Day-01-Introduction.ipynb /Users/you@domain/Day-01-I
 Notes:
 - When moving to Databricks, manage secrets (keys, tokens) via Databricks Secret Scopes or Azure Key Vault — never hardcode credentials in notebooks.
 
-## Contributing
+## 🤝 Contributing
 
 Contributions, improvements, and corrections are welcome.
 
@@ -120,7 +123,7 @@ Guidelines:
 - Keep notebooks focused and well-documented.
 - Avoid committing large datasets; prefer small sample data or links to public data sources.
 
-## License & contact
+## ©️ License & contact
 
 This repository is intended for learning and reference. If no LICENSE file is present, assume "All rights reserved" until a license is added. To propose a license, open an issue or PR.
 
@@ -128,3 +131,4 @@ Author / Maintainer: iamkumar-gaurav
 GitHub: https://github.com/iamkumar-gaurav
 
 ---
+Made with ❤️ — enjoy your 30-day journey through Azure Databricks!
